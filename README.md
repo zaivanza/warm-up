@@ -5,7 +5,7 @@
 Настройка :
 
 1. В ```config.py``` меняем значения переменных :
-- FROM_AMOUNT = сеть с которой работаем ( NOVA | ARBITRUM | OPTIMISM )
+- CHAIN = сеть с которой работаем ( NOVA | ARBITRUM | OPTIMISM )
 - FROM_AMOUNT = от какого кол-ва eth свапать
 - TO_AMOUNT = до какого кол-ва eth свапать
 - RM_AMOUNT = кол-во цифр после точки
