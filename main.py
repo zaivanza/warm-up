@@ -26,7 +26,7 @@ def swaps(privatekey, chain):
                 (int(time.time()) + 10000)  # deadline
             ).build_transaction({
                 'from': address_wallet,
-                'value': web3.toWei(amount_to_swap, 'ether'),
+                'value': web3.to_wei(amount_to_swap, 'ether'),
                 'gasPrice': web3.eth.gas_price,
                 'nonce': nonce,
             })
@@ -62,7 +62,7 @@ def swaps(privatekey, chain):
             (int(time.time()) + 10000)  # deadline
             ).build_transaction({
             'from': address_wallet,
-            'value': web3.toWei(amount_to_swap,'ether'), 
+            'value': web3.to_wei(amount_to_swap,'ether'), 
             'gasPrice': web3.eth.gas_price,
             'nonce': nonce,
             })
