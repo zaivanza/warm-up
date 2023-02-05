@@ -6,8 +6,8 @@
 
 1. В ```config.py``` меняем значения переменных :
 - FROM_AMOUNT = сеть с которой работаем ( NOVA | ARBITRUM | OPTIMISM )
-- FROM_AMOUNT = от какого кол-во eth свапать
-- TO_AMOUNT = до какого кол-во eth свапать
+- FROM_AMOUNT = от какого кол-ва eth свапать
+- TO_AMOUNT = до какого кол-ва eth свапать
 - RM_AMOUNT = кол-во цифр после точки
 - SLEEP_FROM = sleep от (в секундах) между swap и следующим кошельком
 - SLEEP_TO = sleep до (в секундах) между swap и следующим кошельком
